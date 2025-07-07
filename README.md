@@ -28,7 +28,7 @@ Este projeto analisa dados semanais de vendas de suplementos alimentares (2020�
 
 | Técnica                       | Aplicação                                              |
 |------------------------------|--------------------------------------------------------|
-| Information Value (IV)       | Identificação de variáveis explicativas               |
+| SHARP VALUES                 | Identificação de variáveis explicativas               |
 | Random Forest Regressor      | Previsão de receita                                   |
 | K-Means Clustering           | Segmentação de lojas por comportamento de vendas      |
 | STL Decomposition / Rolling  | Análise de sazonalidade e tendência temporal          |
@@ -36,30 +36,6 @@ Este projeto analisa dados semanais de vendas de suplementos alimentares (2020�
 | Visualizações com Seaborn/Matplotlib | Dashboards estáticos para decisão comercial |
 
 ---
-
-## 🧱 Estrutura do Projeto (Cookiecutter Data Science)
-
-sales-insights/
-│
-├── data/
-│ ├── raw/ # Dados brutos originais
-│ ├── processed/ # Dados limpos e transformados
-│
-├── notebooks/
-│ ├── Sales.ipynb # Notebook principal com storytelling
-│
-├── src/
-│ ├── features/ # Scripts de engenharia de variáveis
-│ ├── models/ # Scripts de modelagem (RF, KMeans, etc.)
-│ ├── visualizations/ # Gráficos finais e utilitários
-│
-├── reports/
-│ ├── figures/ # Visualizações geradas
-│ ├── executive_summary.md # Versão executiva das conclusões
-│
-├── README.md
-├── LICENSE
-└── requirements.txt
 
 
 ---
